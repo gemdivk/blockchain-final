@@ -123,6 +123,7 @@ Tests validate core functionality of contract flows (campaign creation, funding,
 | Donate | ![screen](screenshots/donate.jpg) | Donation functionality working properly |
 | Project Start | ![screen](screenshots/marking.jpg) | Project Start functionality working properly |
 | End result | ![screen](screenshots/final.jpg) | How the site looks after performing all actions |
+| Release funds | ![screen](screenshots/release.jpg) | Releasing funds after collected enough, returning to contract deployer | 
 
 ## Contributing
 
