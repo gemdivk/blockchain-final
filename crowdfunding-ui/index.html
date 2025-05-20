@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trusted Crowdfunding</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.6.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Trusted Crowdfunding</h1>
+    <p><strong>Connected:</strong> <span id="account">Not connected</span></p>
+    <p><strong>Contract Balance:</strong> <span id="balance">-</span> ETH</p>
+    <p><strong>Goal:</strong> <span id="goal">-</span> ETH</p>
+    <p><strong>Project Started:</strong> <span id="started">-</span></p>
+
+    <input id="amount" placeholder="Enter ETH amount">
+    <div>
+      <button onclick="contribute()">Contribute</button>
+      <button onclick="markProgress()">Mark Progress</button>
+      <button onclick="releaseFunds()">Release Funds</button>
+    </div>
+    <br>
+    <button onclick="connect()">Connect Wallet</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
